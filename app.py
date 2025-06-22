@@ -3,7 +3,6 @@ import numpy as np
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objs as go
-import matplotlib.pyplot as plt
 
 st.title('India Map Visualization')
 st.markdown('This app visualizes various parameters across different states in India using a scatter map. '
