@@ -5,6 +5,10 @@ import plotly.express as px
 import plotly.graph_objs as go
 import matplotlib.pyplot as plt
 
+st.title('India Map Visualization')
+st.markdown('This app visualizes various parameters across different states in India using a scatter map. '
+            'You can select a state and two parameters to visualize their relationship on the map.')
+
 df=pd.read_csv('Rahul.csv')
 state=list(df['State'].unique())
 state.insert(0,'Overall India')
